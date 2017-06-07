@@ -6,8 +6,8 @@ var stamenLayer = new ol.layer.Tile({
 
 var imageLayer = new ol.layer.Tile({
     source: new ol.source.TileWMS({
-        url: 'http://54.146.170.2:8080/rasdaman/ows',
-        params: {'LAYERS': 'truemarble', "CRS":"EPSG:4326"}
+        url: 'http://46.101.47.14:8080/rasdaman/ows',
+        params: {'LAYERS': 'iri_test', "CRS":"EPSG:4326"}
     })
 });
 
